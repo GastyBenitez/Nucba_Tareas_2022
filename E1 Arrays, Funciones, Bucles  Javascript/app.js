@@ -17,7 +17,7 @@ var ingredientes = ["Harina", "Levadura", "Sal", "Aceite", "Tomate", "Cebolla", 
 
 function resultado (ingredientes){
     let ingredientesPar = ingredientes.filter (i=> i.length  % 2 ==0);
-    let ingredientesImpar = ingredientes.filter (i=> (!i.length % 2 ==0));
+    let ingredientesImpar = ingredientes.filter (i=> (i.length % 2 != 0));
    return console.log("Los ingredientes pares son " +  ingredientesPar + " "  + "Y los ingredientes impares son  " + ingredientesImpar);
 }
 resultado(ingredientes);
