@@ -13,14 +13,28 @@
 
 */
 
-const h1Hola = document.querySelector(".h1Hola");
+const h1Hola = document.querySelector("#h1Hola");
     console.dir(h1Hola);
 
-const parrafo = document.querySelector(".parrafo");
+const parrafo = document.querySelector("#parrafo");
     console.dir(parrafo);
 
-const divVacio = document.querySelector(".divVacio");
+const divVacio = document.querySelector("#divVacio");
     console.dir(divVacio);
 
-const input = document.querySelector(".checkbox");
+
+const text = document.querySelector("#text");
+    console.dir(text);
+
+const pasword = document.querySelector("#pasword");
+    console.dir(pasword);
+
+const email = document.querySelector("#email");
+    console.dir(email);
+
+const number = document.querySelector("#number");
+    console.dir(number);
+
+
+const input = document.querySelector("#checkbox");
     console.dir(input);
