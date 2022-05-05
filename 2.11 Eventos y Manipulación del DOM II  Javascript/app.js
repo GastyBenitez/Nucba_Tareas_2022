@@ -58,7 +58,7 @@ const text = document.querySelector("#text");
     console.dir(text);
 
 text.addEventListener("focus", (e)=>{
-    e.target.style = "color: red";
+    e.target.placeholder = "Usuario"
 });
 
 
